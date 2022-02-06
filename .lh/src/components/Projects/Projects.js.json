@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Projects/Projects.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1643998888487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1643998888487,
+            "name": "Commit-0",
+            "content": "import React from 'react';\n\nimport { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';\nimport { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';\nimport { projects } from '../../constants/constants';\n\nconst Projects = () => (\n  <Section nopadding id=\"projects\">\n    <SectionDivider />\n    <SectionTitle main>Projects</SectionTitle>\n    <GridContainer>\n      {projects.map((p, i) => {\n        return (\n          <BlogCard key={i}>\n          <Img src={p.image} />\n            <TitleContent>\n              <HeaderThree title>{p.title}</HeaderThree>\n              <Hr />\n            </TitleContent>\n            <CardInfo className=\"card-info\">{p.description}</CardInfo>\n            <div>\n              <TitleContent>Stack</TitleContent>\n              <TagList>\n                {p.tags.map((t, i) => {\n                  return <Tag key={i}>{t}</Tag>;\n                })}\n              </TagList>\n            </div>\n            <UtilityList>\n              <ExternalLinks href={p.visit}>Code</ExternalLinks>\n              <ExternalLinks href={p.source}>Source</ExternalLinks>\n            </UtilityList>\n          </BlogCard>\n        );\n      })}\n    </GridContainer>\n  </Section>\n);\n\nexport default Projects;"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "sourceFile": "src/constants/constants.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 39,
+            "patches": [
+                {
+                    "date": 1643999204928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643999212352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n export const projects = [\n   {\n     title: 'MERN Memories',\n     description: \"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n-      image: '/images/PORTFOLIO.png',\n+      image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n     id: 0,\n"
+                },
+                {
+                    "date": 1643999230196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n   },\n ];\n \n export const TimeLineData = [\n-  { year: 2017, text: 'Started my journey', },\n+  { year: 2018, text: 'Started my journey', },\n   { year: 2018, text: 'Worked as a freelance developer', },\n   { year: 2019, text: 'Founded JavaScript Mastery', },\n   { year: 2020, text: 'Shared my projects with the world', },\n   { year: 2021, text: 'Started my own platform', },\n"
+                },
+                {
+                    "date": 1643999236511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n ];\n \n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n-  { year: 2018, text: 'Worked as a freelance developer', },\n-  { year: 2019, text: 'Founded JavaScript Mastery', },\n+  { year: 2019, text: 'Worked as a freelance developer', },\n+  { year: 2020, text: 'Founded JavaScript Mastery', },\n   { year: 2020, text: 'Shared my projects with the world', },\n   { year: 2021, text: 'Started my own platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1643999242159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,7 +40,7 @@\n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n   { year: 2019, text: 'Worked as a freelance developer', },\n   { year: 2020, text: 'Founded JavaScript Mastery', },\n-  { year: 2020, text: 'Shared my projects with the world', },\n-  { year: 2021, text: 'Started my own platform', },\n+  { year: 2021, text: 'Shared my projects with the world', },\n+  { year: 2022, text: 'Started my own platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644020255486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     id: 1,\n   },\n   {\n     title: 'WebRTC App',\n-    description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.\",\n+    description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n       image: '/images/3.jpg',\n       tags: ['React', 'WebRTC'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644020294877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   },\n   {\n     title: 'E-Commerce',\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n-    image: '/images/2.png',\n+    image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n     id: 1,\n"
+                },
+                {
+                    "date": 1644020323126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     visit: 'https://google.com',\n     id: 0,\n   },\n   {\n-    title: 'E-Commerce',\n+    title: 'To ',\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n     image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644020332877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     visit: 'https://google.com',\n     id: 0,\n   },\n   {\n-    title: 'To ',\n+    title: 'React ToDo List',\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n     image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644089817257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n export const projects = [\n   {\n-    title: 'MERN Memories',\n+    title: 'Per',\n     description: \"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644089822693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n export const projects = [\n   {\n-    title: 'Per',\n+    title: 'Personal Portfolio',\n     description: \"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644095583976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     title: 'React ToDo List',\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n     image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n-    source: 'https://google.com',\n+    source: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n     visit: 'https://google.com',\n     id: 1,\n   },\n   {\n"
+                },
+                {
+                    "date": 1644095590157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n     image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n     source: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n-    visit: 'https://google.com',\n+    visit: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n     id: 1,\n   },\n   {\n     title: 'WebRTC App',\n"
+                },
+                {
+                    "date": 1644182004699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     visit: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n     id: 1,\n   },\n   {\n-    title: 'WebRTC App',\n+    title: 'Chat App',\n     description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n       image: '/images/3.jpg',\n       tags: ['React', 'WebRTC'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644182027054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   },\n   {\n     title: 'Chat App',\n     description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n-      image: '/images/3.jpg',\n+      image: '/images/chatapp.jpg',\n       tags: ['React', 'WebRTC'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n     id: 2,\n"
+                },
+                {
+                    "date": 1644182032855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n   },\n   {\n     title: 'Chat App',\n     description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n-      image: '/images/chatapp.jpg',\n+      image: '/images/chatapp.png',\n       tags: ['React', 'WebRTC'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n     id: 2,\n"
+                },
+                {
+                    "date": 1644182043520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   {\n     title: 'Chat App',\n     description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n       image: '/images/chatapp.png',\n-      tags: ['React', 'WebRTC'],\n+      tags: ['React', 'ChatEngine'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n     id: 2,\n   },\n"
+                },
+                {
+                    "date": 1644182094995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     title: 'Chat App',\n     description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n       image: '/images/chatapp.png',\n       tags: ['React', 'ChatEngine'],\n-    source: 'https://google.com',\n+    source: 'https://github.com/Jadesola-213/chatapp',\n     visit: 'https://google.com',\n     id: 2,\n   },\n   {\n"
+                },
+                {
+                    "date": 1644182123568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     title: 'React ToDo List',\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n     image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n-    source: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n+    source: 'https://github.com/Jadesola-213/todo-list',\n     visit: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n     id: 1,\n   },\n   {\n@@ -22,9 +22,9 @@\n     description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy ta React Video Chat Application using WebRTC.\",\n       image: '/images/chatapp.png',\n       tags: ['React', 'ChatEngine'],\n     source: 'https://github.com/Jadesola-213/chatapp',\n-    visit: 'https://google.com',\n+    visit: 'https://github.com/Jadesola-213/chatapp',\n     id: 2,\n   },\n   {\n     title: 'Unichat',\n"
+                },
+                {
+                    "date": 1644182129267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n     image: '/images/todo.png',\n     tags: ['React', 'JavaScript'],\n     source: 'https://github.com/Jadesola-213/todo-list',\n-    visit: 'https://github.com/Jadesola-213/ToDo-List-React.js/tree/master',\n+    visit: 'https://github.com/Jadesola-213/todo-list',\n     id: 1,\n   },\n   {\n     title: 'Chat App',\n"
+                },
+                {
+                    "date": 1644182152152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     visit: 'https://github.com/Jadesola-213/chatapp',\n     id: 2,\n   },\n   {\n-    title: 'Unichat',\n+    title: '',\n     description: \"This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application\",\n     image: '/images/4.jpg',\n     tags: ['React', 'ChatEngine', 'Firebase'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644182162511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n     visit: 'https://github.com/Jadesola-213/chatapp',\n     id: 2,\n   },\n   {\n-    title: '',\n+    title: 'Software Project Man',\n     description: \"This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application\",\n     image: '/images/4.jpg',\n     tags: ['React', 'ChatEngine', 'Firebase'],\n     source: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644182210648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,11 +26,11 @@\n     visit: 'https://github.com/Jadesola-213/chatapp',\n     id: 2,\n   },\n   {\n-    title: 'Software Project Man',\n+    title: 'Software Project Management System',\n     description: \"This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application\",\n-    image: '/images/4.jpg',\n+    image: '/images/beanstalk-dark.png',\n     tags: ['React', 'ChatEngine', 'Firebase'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n     id: 3,\n"
+                },
+                {
+                    "date": 1644182254048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n ];\n \n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n-  { year: 2019, text: 'Worked as a freelance developer', },\n+  { year: 2019, text: 'S', },\n   { year: 2020, text: 'Founded JavaScript Mastery', },\n   { year: 2021, text: 'Shared my projects with the world', },\n   { year: 2022, text: 'Started my own platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644182262097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n ];\n \n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n-  { year: 2019, text: 'S', },\n+  { year: 2019, text: 'Started Undergraduate Studies', },\n   { year: 2020, text: 'Founded JavaScript Mastery', },\n   { year: 2021, text: 'Shared my projects with the world', },\n   { year: 2022, text: 'Started my own platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644182272520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n ];\n \n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n-  { year: 2019, text: 'Started Undergraduate Studies', },\n+  { year: 2019, text: 'Started Undergraduate Studies - BSc Software Engineering', },\n   { year: 2020, text: 'Founded JavaScript Mastery', },\n   { year: 2021, text: 'Shared my projects with the world', },\n   { year: 2022, text: 'Started my own platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644182283462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,8 @@\n \n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n   { year: 2019, text: 'Started Undergraduate Studies - BSc Software Engineering', },\n-  { year: 2020, text: 'Founded JavaScript Mastery', },\n+  { year: 2020, text: 'Started Fe', },\n   { year: 2021, text: 'Shared my projects with the world', },\n   { year: 2022, text: 'Started my own platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644182307444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,8 @@\n \n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n   { year: 2019, text: 'Started Undergraduate Studies - BSc Software Engineering', },\n-  { year: 2020, text: 'Started Fe', },\n+  { year: 2020, text: 'Started Freelancing', },\n   { year: 2021, text: 'Shared my projects with the world', },\n-  { year: 2022, text: 'Started my own platform', },\n+  { year: 2022, text: 'Starting social media pla', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644182390452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,7 +40,7 @@\n export const TimeLineData = [\n   { year: 2018, text: 'Started my journey', },\n   { year: 2019, text: 'Started Undergraduate Studies - BSc Software Engineering', },\n   { year: 2020, text: 'Started Freelancing', },\n-  { year: 2021, text: 'Shared my projects with the world', },\n-  { year: 2022, text: 'Starting social media pla', },\n+  { year: 2021, text: 'Developed Software Projects', },\n+  { year: 2022, text: 'Starting social media platform', },\n ];\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1644184787105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184807905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next JS Hooksfrom start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184813510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next JS Hooksfrom start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS Hooksfrom start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184823421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS Hooksfrom start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, I start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184838847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS, I start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, I BUILT A PERSONAL PORTFOLIO WEBSITE start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184855570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS, I BUILT A PERSONAL PORTFOLIO WEBSITE start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, Ibuilt a personal portfolio website start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184866903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS, Ibuilt a personal portfolio website start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184877739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple web app that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184882858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple web app that allows users to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple website that allows users to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644184891479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n export const projects = [\n   {\n     title: 'Personal Portfolio',\n-    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple website that allows visito to post interesting events that happened in their lives.\",\n+    description: \"Using React and Next.JS, Ibuilt a personal portfolio website from start to finish. The App is called Portfolio and it is a simple website that allows visitor to post interesting events that happened in their lives.\",\n       image: '/images/portfolio.png',\n       tags: ['Mongo', 'Express', 'React', 'Node'],\n     source: 'https://google.com',\n     visit: 'https://google.com',\n"
+                },
+                {
+                    "date": 1644185249401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     id: 1,\n   },\n   {\n     title: 'Chat App',\n-    description: \"I developed a chatapp with great design and functionality which inform users of online s\",\n+    description: \"I developed a chatapp with great design and functionality which inform users of online st\",\n       image: '/images/chatapp.png',\n       tags: ['React', 'ChatEngine'],\n     source: 'https://github.com/Jadesola-213/chatapp',\n     visit: 'https://github.com/Jadesola-213/chatapp',\n"
+                }
+            ],
+            "date": 1643999204928,
+            "name": "Commit-0",
+            "content": "export const projects = [\n  {\n    title: 'MERN Memories',\n    description: \"Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.\",\n      image: '/images/PORTFOLIO.png',\n      tags: ['Mongo', 'Express', 'React', 'Node'],\n    source: 'https://google.com',\n    visit: 'https://google.com',\n    id: 0,\n  },\n  {\n    title: 'E-Commerce',\n    description:\"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.\",\n    image: '/images/2.png',\n    tags: ['React', 'JavaScript'],\n    source: 'https://google.com',\n    visit: 'https://google.com',\n    id: 1,\n  },\n  {\n    title: 'WebRTC App',\n    description: \"This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.\",\n      image: '/images/3.jpg',\n      tags: ['React', 'WebRTC'],\n    source: 'https://google.com',\n    visit: 'https://google.com',\n    id: 2,\n  },\n  {\n    title: 'Unichat',\n    description: \"This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application\",\n    image: '/images/4.jpg',\n    tags: ['React', 'ChatEngine', 'Firebase'],\n    source: 'https://google.com',\n    visit: 'https://google.com',\n    id: 3,\n  },\n];\n\nexport const TimeLineData = [\n  { year: 2017, text: 'Started my journey', },\n  { year: 2018, text: 'Worked as a freelance developer', },\n  { year: 2019, text: 'Founded JavaScript Mastery', },\n  { year: 2020, text: 'Shared my projects with the world', },\n  { year: 2021, text: 'Started my own platform', },\n];"
+        }
+    ]
+}

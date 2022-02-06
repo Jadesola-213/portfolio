@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/components/TimeLine/TimeLineStyles.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1643999082757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643999820093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import styled from 'styled-components'\n \n export const CarouselContainer = styled.ul`\n   max-width: 1040px;\n-  background: #0F1624;\n+  background: 4#0F162;\n   padding: 0rem;\n   list-style:none;\n   display: flex;\n   justify-content: space-between; \n"
+                },
+                {
+                    "date": 1643999826904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import styled from 'styled-components'\n \n export const CarouselContainer = styled.ul`\n   max-width: 1040px;\n-  background: 4#0F162;\n+  background: blue;\n   padding: 0rem;\n   list-style:none;\n   display: flex;\n   justify-content: space-between; \n"
+                },
+                {
+                    "date": 1643999842044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n   }\n `\n \n export const CarouselItem = styled.div`\n-  background: #0F1624;\n+  background: blue;\n   border-radius: 3px;\n   max-width: 196px;\n   @media ${props => props.theme.breakpoints.md} {\n     max-width: 124px;\n"
+                },
+                {
+                    "date": 1643999877290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,8 @@\n   font-size: 24px;\n   line-height: 32px;\n   letter-spacing: 0.02em;\n   display: flex;\n-  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */\n   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);\n   -webkit-background-clip: text;\n   -webkit-text-fill-color: transparent;\n   margin-bottom: 8px;\n"
+                },
+                {
+                    "date": 1643999893347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n   font-size: 24px;\n   line-height: 32px;\n   letter-spacing: 0.02em;\n   display: flex;\n-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);\n+  background: #fff;\n   -webkit-background-clip: text;\n   -webkit-text-fill-color: transparent;\n   margin-bottom: 8px;\n   @media ${props => props.theme.breakpoints.md} {\n"
+                },
+                {
+                    "date": 1643999918677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n export const CarouselItemText = styled.p`\n   font-size: 14px;\n   line-height: 22px;\n   letter-spacing: 0.02em;\n-  color: rgba(255, 255, 255, 0.75);\n+  color: #Fff;\n   padding-right: 16px;\n   @media ${props => props.theme.breakpoints.md} {\n     font-size: 12px;\n     line-height: 18px;\n"
+                }
+            ],
+            "date": 1643999082757,
+            "name": "Commit-0",
+            "content": "import styled from 'styled-components'\n\nexport const CarouselContainer = styled.ul`\n  max-width: 1040px;\n  background: #0F1624;\n  padding: 0rem;\n  list-style:none;\n  display: flex;\n  justify-content: space-between; \n  /* overflow-x: hidden; */\n  margin-left: 32px;\n  &:first-of-type{\n    margin-left: 0px;\n  }\n  margin-bottom: 80px;\n  //remove scrollbar\n  scrollbar-width: none;  \n   &::-webkit-scrollbar {\n     display: none;\n   }\n  @media ${props => props.theme.breakpoints.sm} {\n    overflow-x: scroll;\n    -webkit-overflow-scrolling: touch;\n    scroll-snap-type: x mandatory;\n    touch-action: pan-x;\n    justify-content: initial;\n    margin-bottom: 8px;\n  }\n`\nexport const CarouselMobileScrollNode = styled.div`\n  @media ${props => props.theme.breakpoints.sm} {\n    display: flex;\n    min-width: ${({ final }) => final ? `120%;` : `min-content`}\n  }\n`\n\nexport const CarouselItem = styled.div`\n  background: #0F1624;\n  border-radius: 3px;\n  max-width: 196px;\n  @media ${props => props.theme.breakpoints.md} {\n    max-width: 124px;\n  }\n  \n  @media ${props => props.theme.breakpoints.sm} {\n    margin-left: 32px;\n    min-width: 120px;\n    background: #0E131F;\n    padding: 4px;\n    align-content: start;\n    scroll-snap-align: start;\n    border-radius: 3px;\n    overflow: visible;\n    position: relative;\n    height: fit-content;\n    \n    ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`}; \n  }\n`\n\nexport const CarouselItemTitle = styled.h4`\n  font-weight: bold;\n  font-size: 24px;\n  line-height: 32px;\n  letter-spacing: 0.02em;\n  display: flex;\n  /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */\n  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  margin-bottom: 8px;\n  @media ${props => props.theme.breakpoints.md} {\n    font-size: 20px;\n    line-height: 28px;\n    margin-bottom: 4px;\n  }\n  \n  @media ${props => props.theme.breakpoints.sm} {\n    font-size: 16px;\n    line-height: 24px;\n  }\n`\nexport const CarouselItemImg = styled.svg`\n  margin-left: 21px;\n  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));\n  width: 100%;\n  @media ${props => props.theme.breakpoints.sm} {\n    -webkit-mask-image: none;\n    margin-left: 16px;\n    overflow: visible;\n  }\n`\n\nexport const CarouselItemText = styled.p`\n  font-size: 14px;\n  line-height: 22px;\n  letter-spacing: 0.02em;\n  color: rgba(255, 255, 255, 0.75);\n  padding-right: 16px;\n  @media ${props => props.theme.breakpoints.md} {\n    font-size: 12px;\n    line-height: 18px;\n    padding-right: 32px;\n  }\n  @media ${props => props.theme.breakpoints.sm} {\n    font-size: 10px;\n    line-height: 16px;\n    padding-right: 0;\n  }\n`\nexport const CarouselButtons = styled.div`\n  width: 288px;\n  display: none;\n  visibility: hidden;\n  @media ${props => props.theme.breakpoints.sm} {\n    display: flex;\n    visibility: visible;\n    margin-bottom: 48px;\n  }\n`\n\nexport const CarouselButton = styled.button`\n  box-sizing: border-box;\n  background: none;\n  padding: 4px;\n  border: none;\n  cursor: pointer;\n  margin-right: 4px;\n  opacity: ${(props) => props.active === props.index ? `1` : `.33`};\n  transform: ${(props) => props.active === props.index ? `scale(1.6)` : `scale(1)`};\n  &:focus {\n    outline: none;\n  }\n`\n\nexport const CarouselButtonDot = styled.div`\n  background-color: white;\n  border-radius: 10px;\n  margin: auto;\n  width: 3px;\n  height: 3px;\n`\n"
+        }
+    ]
+}

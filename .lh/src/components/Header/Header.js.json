@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/components/Header/Header.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1643998393947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643998535381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from 'next/link';\n import React from 'react';\n import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\n-import { DiCssdeck } from 'react-icons/di';\n+import { DiCssdeck } from 'react-icons/bi';\n \n import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';\n \n const Header = () =>  (\n"
+                },
+                {
+                    "date": 1643998542113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Link from 'next/link';\n import React from 'react';\n import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\n-import { DiCssdeck } from 'react-icons/bi';\n+import { BiAnalyse} from 'react-icons/bi';\n \n import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';\n \n const Header = () =>  (\n"
+                },
+                {
+                    "date": 1643998550600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   <Container>\n     <Div1>\n       <Link href=\"/\">\n         <a style={{ display: 'flex', alignItems: 'center', color:\"white\" }}>\n-          <DiCssdeck size=\"3rem\" /> <span>Portfolio</span>\n+          <BiAnalyse size=\"3rem\" /> <span>Portfolio</span>\n         </a>\n       </Link>\n     </Div1>\n     <Div2>\n"
+                },
+                {
+                    "date": 1643998566067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   <Container>\n     <Div1>\n       <Link href=\"/\">\n         <a style={{ display: 'flex', alignItems: 'center', color:\"white\" }}>\n-          <BiAnalyse size=\"3rem\" /> <span>Portfolio</span>\n+          <BiAnalyse size=\"3rem\" /> <span>PORTFOLIO</span>\n         </a>\n       </Link>\n     </Div1>\n     <Div2>\n"
+                },
+                {
+                    "date": 1643998572322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     </Div1>\n     <Div2>\n       <li>\n         <Link href=\"#projects\">\n-          <NavLink>Projects</NavLink>\n+          <NavLink>PROJECTS</NavLink>\n         </Link>\n       </li>\n       <li>\n         <Link href=\"#tech\">\n"
+                },
+                {
+                    "date": 1643998588191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </Link>\n       </li>\n       <li>\n         <Link href=\"#tech\">\n-          <NavLink>Technologies</NavLink>\n+          <NavLink>TECHNOLOGIES</NavLink>\n         </Link>\n       </li>        \n       <li>\n         <Link href=\"#about\">\n"
+                },
+                {
+                    "date": 1643998622948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         </Link>\n       </li>        \n       <li>\n         <Link href=\"#about\">\n-          <NavLink>About</NavLink>\n+          <NavLink>ABOUT</NavLink>\n         </Link>\n       </li>        \n     </Div2>\n       <Div3>\n"
+                },
+                {
+                    "date": 1643998653802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         </Link>\n       </li>        \n     </Div2>\n       <Div3>\n-        <SocialIcons href=\"https://google.com\">\n+        <SocialIcons href=\"https://github.com/Jadesola-213\">\n           <AiFillGithub size=\"3rem\" />\n         </SocialIcons>\n         <SocialIcons href=\"https://google.com\">\n           <AiFillLinkedin size=\"3rem\" />\n"
+                },
+                {
+                    "date": 1643998676722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n       <Div3>\n         <SocialIcons href=\"https://github.com/Jadesola-213\">\n           <AiFillGithub size=\"3rem\" />\n         </SocialIcons>\n-        <SocialIcons href=\"https://google.com\">\n+        <SocialIcons href=\"https://www.linkedin.com/in/jadesolaosinowo/\">\n           <AiFillLinkedin size=\"3rem\" />\n         </SocialIcons>\n         <SocialIcons href=\"https://google.com\">\n           <AiFillInstagram size=\"3rem\"/>\n"
+                },
+                {
+                    "date": 1643998709394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n         </SocialIcons>\n         <SocialIcons href=\"https://www.linkedin.com/in/jadesolaosinowo/\">\n           <AiFillLinkedin size=\"3rem\" />\n         </SocialIcons>\n-        <SocialIcons href=\"https://google.com\">\n+        <SocialIcons href=\"https://www.instagram.com/jadesola._o/\">\n           <AiFillInstagram size=\"3rem\"/>\n         </SocialIcons>\n       </Div3>\n     </Container>\n"
+                }
+            ],
+            "date": 1643998393947,
+            "name": "Commit-0",
+            "content": "import Link from 'next/link';\nimport React from 'react';\nimport { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\nimport { DiCssdeck } from 'react-icons/di';\n\nimport { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';\n\nconst Header = () =>  (\n  <Container>\n    <Div1>\n      <Link href=\"/\">\n        <a style={{ display: 'flex', alignItems: 'center', color:\"white\" }}>\n          <DiCssdeck size=\"3rem\" /> <span>Portfolio</span>\n        </a>\n      </Link>\n    </Div1>\n    <Div2>\n      <li>\n        <Link href=\"#projects\">\n          <NavLink>Projects</NavLink>\n        </Link>\n      </li>\n      <li>\n        <Link href=\"#tech\">\n          <NavLink>Technologies</NavLink>\n        </Link>\n      </li>        \n      <li>\n        <Link href=\"#about\">\n          <NavLink>About</NavLink>\n        </Link>\n      </li>        \n    </Div2>\n      <Div3>\n        <SocialIcons href=\"https://google.com\">\n          <AiFillGithub size=\"3rem\" />\n        </SocialIcons>\n        <SocialIcons href=\"https://google.com\">\n          <AiFillLinkedin size=\"3rem\" />\n        </SocialIcons>\n        <SocialIcons href=\"https://google.com\">\n          <AiFillInstagram size=\"3rem\"/>\n        </SocialIcons>\n      </Div3>\n    </Container>\n);\n\nexport default Header;"
+        }
+    ]
+}

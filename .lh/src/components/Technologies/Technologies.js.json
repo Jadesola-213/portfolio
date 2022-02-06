@@ -1,0 +1,118 @@
+{
+    "sourceFile": "src/components/Technologies/Technologies.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1643998972674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644182758547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Technologies = () =>  (\n   <Section id=\"tech\">\n     <SectionDivider divider />\n-    <SectionTitle>Technologies</SectionTitle>\n+    <SectionTitle>Skills</SectionTitle>\n     <SectionText>\n       I've worked with a range a technologies in the web development world.\n       From Back-end To Design\n     </SectionText>\n"
+                },
+                {
+                    "date": 1644182804470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n-            Experiece with <br />\n+             <br />\n             React.js\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n"
+                },
+                {
+                    "date": 1644182810572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n-             <br />\n+            Ja <br />\n             React.js\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n"
+                },
+                {
+                    "date": 1644182824029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n-            Ja <br />\n-            React.js\n+            JavaScript <br />\n+            React.js <></>\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644182832870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n         <ListContainer>\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n             JavaScript <br />\n-            React.js <></>\n+            React.js <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644182841445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n             JavaScript <br />\n             React.js <br />\n+            \n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644182892557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n             JavaScript <br />\n             React.js <br />\n-            \n+\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n@@ -31,10 +31,10 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n-            Experience with <br />\n-            Node and Databases\n+            JavaScript <br />\n+            React.js <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644182898627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n-            JavaScript <br />\n+            Python <br />\n             React.js <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n"
+                },
+                {
+                    "date": 1644182904225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n         <ListContainer>\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n             Python <br />\n-            React.js <br />\n+            Mongo <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644183083951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n             JavaScript <br />\n             React.js <br />\n-\n+            \n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n@@ -32,9 +32,9 @@\n         <ListContainer>\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n             Python <br />\n-            Mongo <br />\n+            MongoDB <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644183091259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n           <ListTitle>Front-End</ListTitle>\n           <ListParagraph>\n             JavaScript <br />\n             React.js <br />\n-            \n+            CSS <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644183194847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n             Python <br />\n             MongoDB <br />\n+            \n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644183202322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n             Python <br />\n             MongoDB <br />\n-            \n+            jAVA <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n"
+                },
+                {
+                    "date": 1644183222136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,18 +33,18 @@\n           <ListTitle>Back-End</ListTitle>\n           <ListParagraph>\n             Python <br />\n             MongoDB <br />\n-            jAVA <br />\n+            JAVA <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n       <ListItem>\n         <picture>\n           <DiZend size=\"3rem\" />\n         </picture>\n         <ListContainer>\n-          <ListTitle>UI/UX</ListTitle>\n+          <ListTitle>Other Too</ListTitle>\n           <ListParagraph>\n             Experience with <br />\n             tools like Figma\n           </ListParagraph>\n"
+                },
+                {
+                    "date": 1644183234258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,11 +42,11 @@\n         <picture>\n           <DiZend size=\"3rem\" />\n         </picture>\n         <ListContainer>\n-          <ListTitle>Other Too</ListTitle>\n+          <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n-            Experience with <br />\n+            Figma -  <br />\n             tools like Figma\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n"
+                },
+                {
+                    "date": 1644183240120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n-            Figma -  <br />\n+            Figma - UX <br />\n             tools like Figma\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n"
+                },
+                {
+                    "date": 1644183245779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n         </picture>\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n-            Figma - UX <br />\n+            Figma - UX/UI Design <br />\n             tools like Figma\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n"
+                },
+                {
+                    "date": 1644183287336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n-            tools like Figma\n+            Selenium - \n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183292950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n-            Selenium - \n+            Selenium - Software Testing\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183299605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n-            Selenium - Software Testing\n+            Selenium - Software Testing <></>\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183305221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n-            Selenium - Software Testing <></>\n+            Selenium - Software Testing <><br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183313289,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,10 @@\n         <ListContainer>\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n-            Selenium - Software Testing <><br />\n+            Selenium - Software Testing <br />\n+            \n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183321806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n             Selenium - Software Testing <br />\n-            \n+            Git  <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183328340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n             Selenium - Software Testing <br />\n-            Git  <br />\n+            Git - Ver <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                },
+                {
+                    "date": 1644183359242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n           <ListTitle>Other Tools</ListTitle>\n           <ListParagraph>\n             Figma - UX/UI Design <br />\n             Selenium - Software Testing <br />\n-            Git - Ver <br />\n+            Git - Version Control <br />\n           </ListParagraph>\n         </ListContainer>\n       </ListItem>\n     </List>\n"
+                }
+            ],
+            "date": 1643998972674,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport { DiFirebase, DiReact, DiZend } from 'react-icons/di';\nimport { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';\nimport { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';\n\nconst Technologies = () =>  (\n  <Section id=\"tech\">\n    <SectionDivider divider />\n    <SectionTitle>Technologies</SectionTitle>\n    <SectionText>\n      I've worked with a range a technologies in the web development world.\n      From Back-end To Design\n    </SectionText>\n    <List>\n      <ListItem>\n        <picture>\n          <DiReact size=\"3rem\" />\n        </picture>\n        <ListContainer>\n          <ListTitle>Front-End</ListTitle>\n          <ListParagraph>\n            Experiece with <br />\n            React.js\n          </ListParagraph>\n        </ListContainer>\n      </ListItem>\n      <ListItem>\n        <picture>\n          <DiFirebase size=\"3rem\" />\n        </picture>\n        <ListContainer>\n          <ListTitle>Back-End</ListTitle>\n          <ListParagraph>\n            Experience with <br />\n            Node and Databases\n          </ListParagraph>\n        </ListContainer>\n      </ListItem>\n      <ListItem>\n        <picture>\n          <DiZend size=\"3rem\" />\n        </picture>\n        <ListContainer>\n          <ListTitle>UI/UX</ListTitle>\n          <ListParagraph>\n            Experience with <br />\n            tools like Figma\n          </ListParagraph>\n        </ListContainer>\n      </ListItem>\n    </List>\n    <SectionDivider colorAlt />\n  </Section>\n);\n\nexport default Technologies;\n"
+        }
+    ]
+}

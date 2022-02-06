@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Hero/HeroStyles.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1643998781832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1643998812414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,24 +1,17 @@\n-import React from 'react';\n+import styled from 'styled-components';\n \n-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';\n-import Button from '../../styles/GlobalComponents/Button';\n-import { LeftSection } from './HeroStyles';\n-\n-const Hero = (props) => (\n-  <>\n-    <Section row nopadding>\n-      <LeftSection>\n-        <SectionTitle main center>\n-          Welcome To <br />\n-          My Personal Portfolio\n-        </SectionTitle>\n-        <SectionText>\n-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.\n-        </SectionText>\n-        <Button onClick={props.handleClick}>Learn More</Button>\n-      </LeftSection>\n-    </Section>\n-  </>\n-);\n-\n-export default Hero;\n+export const LeftSection = styled.div`\n+  width: 100%;\n+  @media ${(props) => props.theme.breakpoints.sm} {\n+    width: 80%;\n+    display: flex;\n+    flex-direction: column;\n+    margin: 0 auto;\n+  }\n+  @media ${(props) => props.theme.breakpoints.md} {\n+    width: 100%;\n+    display: flex;\n+    flex-direction: column;\n+    margin: 0 auto;\n+  }\n+`;\n"
+                }
+            ],
+            "date": 1643998781832,
+            "name": "Commit-0",
+            "content": "import React from 'react';\n\nimport { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';\nimport Button from '../../styles/GlobalComponents/Button';\nimport { LeftSection } from './HeroStyles';\n\nconst Hero = (props) => (\n  <>\n    <Section row nopadding>\n      <LeftSection>\n        <SectionTitle main center>\n          Welcome To <br />\n          My Personal Portfolio\n        </SectionTitle>\n        <SectionText>\n        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.\n        </SectionText>\n        <Button onClick={props.handleClick}>Learn More</Button>\n      </LeftSection>\n    </Section>\n  </>\n);\n\nexport default Hero;\n"
+        }
+    ]
+}

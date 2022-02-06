@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/components/Footer/FooterStyles.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1643999144344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644182649446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n `\n \n \n export const Slogan = styled.p`\n-\tcolor: rgba(255, 255, 255, 0.5);\n+\tcolor: blue;\n \tmin-width: 280px;\n \tletter-spacing: 0.02em;\n \tfont-size: 18px;\n \tline-height: 30px;\n"
+                },
+                {
+                    "date": 1644182658030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n `\n \n \n export const Slogan = styled.p`\n-\tcolor: blue;\n+\tcolor: yellow;\n \tmin-width: 280px;\n \tletter-spacing: 0.02em;\n \tfont-size: 18px;\n \tline-height: 30px;\n"
+                },
+                {
+                    "date": 1644182708271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n \tfont-weight: 600;\n \tfont-size: 12px;\n \tline-height: 24px;\n \ttext-transform: uppercase;\n-\tcolor: rgba(255, 255, 255, 0.4);\n+\tcolor: #fff;\n \tmargin-bottom: 16px;\n \t@media ${props => props.theme.breakpoints.sm} {\n \t\tfont-size: 10px;\n \t\tline-height: 12px;\n"
+                },
+                {
+                    "date": 1644182724723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n export const LinkItem = styled.a`\n \tfont-size: 18px;\n \tline-height: 30px;\n-\tcolor: rgba(255, 255, 255, 0.75);\n+\tcolor: #fff;\n \tmargin-bottom: 16px;\n \ttransition: .3s ease;\n \tposition: relative;\n \tleft: 0;\n"
+                }
+            ],
+            "date": 1643999144344,
+            "name": "Commit-0",
+            "content": "import styled from \"styled-components\"\n\nexport const FooterWrapper = styled.section`\n\twidth: calc(100vw - 96px);\n  max-width: 1040px;\n  padding: 2rem 48px 40px;\n  margin: 1rem auto;\n  box-sizing: content-box;\n  @media ${props => props.theme.breakpoints.sm} {\n    padding: 0 16px 48px;\n    width: calc(100vw - 32px);\n  }\n`\n\nexport const LinkItem = styled.a`\n\tfont-size: 18px;\n\tline-height: 30px;\n\tcolor: rgba(255, 255, 255, 0.75);\n\tmargin-bottom: 16px;\n\ttransition: .3s ease;\n\tposition: relative;\n\tleft: 0;\n\t&:hover {\n\t\tcolor: #fff;\n\t\tleft: 6px;\n\t}\n\t@media ${props => props.theme.breakpoints.md} {\n\t\tfont-size: 16px;\n\t\tline-height: 28px;\n\t\tdisplay: flex;\n\t}\n\t@media ${props => props.theme.breakpoints.sm} {\n\t\tfont-size: 8px;\n\t\tline-height: 14px;\n\t\tmargin-bottom: 8px;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n`\n\nexport const SocialIconsContainer = styled.div`\nmax-width: 1040px;\ndisplay: flex;\njustify-content: space-between;\n@media ${props => props.theme.breakpoints.md}{\n  display: flex;\n  justify-content: space-between;\n}\n@media ${props => props.theme.breakpoints.sm}{\n  display: flex;\n\twidth: 100%;\n  flex-direction: column;\n}\n`\n\nexport const CompanyContainer = styled.div`\n  display: flex;\n\talign-items:baseline;\n\tflex-wrap: wrap;\n\tmargin-right: auto;\n\t\n\t@media ${props => props.theme.breakpoints.md}{\n\t\tflex-direction: column;\n\t\talign-items: baseline;\n\t}\n\t@media ${props => props.theme.breakpoints.sm}{\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tmargin: 0 0 32px;\n\t\talign-items: center;\n\t}\n`\n\n\nexport const Slogan = styled.p`\n\tcolor: rgba(255, 255, 255, 0.5);\n\tmin-width: 280px;\n\tletter-spacing: 0.02em;\n\tfont-size: 18px;\n\tline-height: 30px;\n\tpadding: 1rem;\n\t@media ${props => props.theme.breakpoints.md}{\n\t\tfont-size: 16px;\n\t\tline-height: 28px;\n\t}\n\t@media ${props => props.theme.breakpoints.sm}{\n\t\tline-height: 22px;\n\t\tfont-size: 14px;\n\t\tmin-width: 100px;\n\t}\n`\n\nexport const SocialContainer = styled.div`\n\tdisplay: flex;\n  align-items: center;\n\t@media ${props => props.theme.breakpoints.md}{\n\t\tjustify-content: center;\n\t\tpadding-right: 16px;\n\t\tflex-wrap: wrap;\n\t}\n`\n\n\nexport const LinkList = styled.ul`\n\tborder-top: 1px solid rgba(255, 255, 255, 0.1);\n  display: grid;\n\tgrid-template-columns: repeat(3, minmax(85px, 220px));\n\tgap: 40px;\n  padding: 40px 0 28px;\n\t@media ${props => props.theme.breakpoints.lg} {\n\t\tpadding: 32px 0 16px;\n\t}\n\t@media ${props => props.theme.breakpoints.md} {\n\t\twidth: 100%;\n\t\tpadding: 32px 0 16px;\n\t\tgap: 16px;\n\t}\n\t@media ${props => props.theme.breakpoints.sm} {\n\t\twidth: 100%;\n\t\tpadding: 32px 4px 16px;\n\t\tgap: 5px;\n\t}\n`\n\nexport const LinkColumn = styled.div`\n\tdisplay: flex;\n\tflex-direction: column;\n\tmax-width: 220px;\n\twidth: 100%;\n`\nexport const LinkTitle = styled.h4`\n\tfont-style: normal;\n\tfont-weight: 600;\n\tfont-size: 12px;\n\tline-height: 24px;\n\ttext-transform: uppercase;\n\tcolor: rgba(255, 255, 255, 0.4);\n\tmargin-bottom: 16px;\n\t@media ${props => props.theme.breakpoints.sm} {\n\t\tfont-size: 10px;\n\t\tline-height: 12px;\n\t\tmargin-bottom: 8px;\n\t}\n`"
+        }
+    ]
+}

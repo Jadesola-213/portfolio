@@ -1,0 +1,70 @@
+{
+    "sourceFile": "src/components/Footer/Footer.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1643999118145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644182415183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <FooterWrapper>\n       <LinkList>\n         <LinkColumn>\n           <LinkTitle>Call</LinkTitle>\n-          <LinkItem href=\"tel:314-343-3432\">314-343-3432</LinkItem>\n+          <LinkItem href=\"tel:07399700549\">314-343-3432</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n           <LinkItem href=\"mailto:contact@jsmastery.com\">\n"
+                },
+                {
+                    "date": 1644182422466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <FooterWrapper>\n       <LinkList>\n         <LinkColumn>\n           <LinkTitle>Call</LinkTitle>\n-          <LinkItem href=\"tel:07399700549\">314-343-3432</LinkItem>\n+          <LinkItem href=\"tel:07399700549\">07399700549</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n           <LinkItem href=\"mailto:contact@jsmastery.com\">\n"
+                },
+                {
+                    "date": 1644182431937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n           <LinkItem href=\"tel:07399700549\">07399700549</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n-          <LinkItem href=\"mailto:contact@jsmastery.com\">\n+          <LinkItem href=\"mailto:jadesolaosinowo.com\">\n             contact@jsmastery.com\n           </LinkItem>\n         </LinkColumn>\n       </LinkList>\n"
+                },
+                {
+                    "date": 1644182439717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n           <LinkItem href=\"tel:07399700549\">07399700549</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n-          <LinkItem href=\"mailto:jadesolaosinowo.com\">\n+          <LinkItem href=\"mailto:jadesolaosinowo213#.com\">\n             contact@jsmastery.com\n           </LinkItem>\n         </LinkColumn>\n       </LinkList>\n"
+                },
+                {
+                    "date": 1644182445485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n           <LinkItem href=\"tel:07399700549\">07399700549</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n-          <LinkItem href=\"mailto:jadesolaosinowo213#.com\">\n+          <LinkItem href=\"mailto:jadesolaosinowo213@gmail.com\">\n             contact@jsmastery.com\n           </LinkItem>\n         </LinkColumn>\n       </LinkList>\n"
+                },
+                {
+                    "date": 1644182459586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n           <LinkItem href=\"mailto:jadesolaosinowo213@gmail.com\">\n-            contact@jsmastery.com\n+          jadesolaosinowo213@gmail.com\n           </LinkItem>\n         </LinkColumn>\n       </LinkList>\n       <SocialIconsContainer>\n"
+                },
+                {
+                    "date": 1644182495596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         </LinkColumn>\n       </LinkList>\n       <SocialIconsContainer>\n         <CompanyContainer>\n-          <Slogan>Innovating one project at a time</Slogan>\n+          <Slogan>Simple solutions for complex problems</Slogan>\n         </CompanyContainer>\n         <SocialContainer>\n           <SocialIcons href=\"https://google.com\">\n             <AiFillGithub size=\"3rem\" />\n"
+                },
+                {
+                    "date": 1644182524988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         <CompanyContainer>\n           <Slogan>Simple solutions for complex problems</Slogan>\n         </CompanyContainer>\n         <SocialContainer>\n-          <SocialIcons href=\"https://google.com\">\n+          <SocialIcons href=\"https://https://github.com/Jadesola-213\">\n             <AiFillGithub size=\"3rem\" />\n           </SocialIcons>\n           <SocialIcons href=\"https://google.com\">\n             <AiFillLinkedin size=\"3rem\" />\n"
+                },
+                {
+                    "date": 1644182530399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         <CompanyContainer>\n           <Slogan>Simple solutions for complex problems</Slogan>\n         </CompanyContainer>\n         <SocialContainer>\n-          <SocialIcons href=\"https://https://github.com/Jadesola-213\">\n+          <SocialIcons href=\"https://github.com/Jadesola-213\">\n             <AiFillGithub size=\"3rem\" />\n           </SocialIcons>\n           <SocialIcons href=\"https://google.com\">\n             <AiFillLinkedin size=\"3rem\" />\n"
+                },
+                {
+                    "date": 1644182553510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n         <SocialContainer>\n           <SocialIcons href=\"https://github.com/Jadesola-213\">\n             <AiFillGithub size=\"3rem\" />\n           </SocialIcons>\n-          <SocialIcons href=\"https://google.com\">\n+          <SocialIcons href=\"https://www.linkedin.com/in/jadesolaosinowo/\">\n             <AiFillLinkedin size=\"3rem\" />\n           </SocialIcons>\n           <SocialIcons href=\"https://google.com\">\n             <AiFillInstagram size=\"3rem\" />\n"
+                },
+                {
+                    "date": 1644182576955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n           </SocialIcons>\n           <SocialIcons href=\"https://www.linkedin.com/in/jadesolaosinowo/\">\n             <AiFillLinkedin size=\"3rem\" />\n           </SocialIcons>\n-          <SocialIcons href=\"https://google.com\">\n+          <SocialIcons href=\"https://www.instagram.com/jadesola._o/\">\n             <AiFillInstagram size=\"3rem\" />\n           </SocialIcons>\n         </SocialContainer>\n       </SocialIconsContainer>\n"
+                },
+                {
+                    "date": 1644182586804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   return (\n     <FooterWrapper>\n       <LinkList>\n         <LinkColumn>\n-          <LinkTitle>Call</LinkTitle>\n+          <LinkTitle>Call me</LinkTitle>\n           <LinkItem href=\"tel:07399700549\">07399700549</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n           <LinkTitle>Email</LinkTitle>\n"
+                },
+                {
+                    "date": 1644182601763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,13 @@\n   return (\n     <FooterWrapper>\n       <LinkList>\n         <LinkColumn>\n-          <LinkTitle>Call me</LinkTitle>\n+          <LinkTitle>contact me</LinkTitle>\n           <LinkItem href=\"tel:07399700549\">07399700549</LinkItem>\n         </LinkColumn>\n         <LinkColumn>\n-          <LinkTitle>Email</LinkTitle>\n+          <LinkTitle>Email me</LinkTitle>\n           <LinkItem href=\"mailto:jadesolaosinowo213@gmail.com\">\n           jadesolaosinowo213@gmail.com\n           </LinkItem>\n         </LinkColumn>\n"
+                }
+            ],
+            "date": 1643999118145,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';\n\nimport { SocialIcons } from '../Header/HeaderStyles';\nimport { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';\n\nconst Footer = () => {\n  return (\n    <FooterWrapper>\n      <LinkList>\n        <LinkColumn>\n          <LinkTitle>Call</LinkTitle>\n          <LinkItem href=\"tel:314-343-3432\">314-343-3432</LinkItem>\n        </LinkColumn>\n        <LinkColumn>\n          <LinkTitle>Email</LinkTitle>\n          <LinkItem href=\"mailto:contact@jsmastery.com\">\n            contact@jsmastery.com\n          </LinkItem>\n        </LinkColumn>\n      </LinkList>\n      <SocialIconsContainer>\n        <CompanyContainer>\n          <Slogan>Innovating one project at a time</Slogan>\n        </CompanyContainer>\n        <SocialContainer>\n          <SocialIcons href=\"https://google.com\">\n            <AiFillGithub size=\"3rem\" />\n          </SocialIcons>\n          <SocialIcons href=\"https://google.com\">\n            <AiFillLinkedin size=\"3rem\" />\n          </SocialIcons>\n          <SocialIcons href=\"https://google.com\">\n            <AiFillInstagram size=\"3rem\" />\n          </SocialIcons>\n        </SocialContainer>\n      </SocialIconsContainer>\n    </FooterWrapper>\n  );\n};\n\nexport default Footer;\n"
+        }
+    ]
+}

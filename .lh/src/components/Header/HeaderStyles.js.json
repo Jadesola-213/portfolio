@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Header/HeaderStyles.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1643998415281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1643998415281,
+            "name": "Commit-0",
+            "content": "import { IoIosArrowDropdown } from 'react-icons/io';\nimport styled from 'styled-components';\n\nexport const Container = styled.div`\n  display: grid;\n  grid-template-columns: repeat(5, 1fr);\n  grid-template-rows: 1fr;\n  grid-column-gap: 2rem;\n  padding: 1rem;\n  padding-top: 2rem;\n  @media ${(props) => props.theme.breakpoints.sm} {\n    display: grid;\n    grid-template-columns: repeat(5, 1fr);\n    grid-template-rows: repeat(2, 60px);\n    grid-column-gap: 0.5rem;\n    grid-row-gap: 0.5rem;\n  }\n`;\nexport const Div1 = styled.div`\n  grid-area: 1 / 1 / 2 / 2;\n  display: flex;\n  flex-direction: row;\n  align-content: center;\n  @media ${(props) => props.theme.breakpoints.sm} {\n    grid-area: 1 / 1 / 2 / 3;\n  }\n`;\nexport const Div2 = styled.div`\n  grid-area: 1 / 2 / 2 / 4;\n  display: flex;\n  justify-content: space-around;\n  @media ${(props) => props.theme.breakpoints.sm} {\n    grid-area: 2 / 2 / 3 / 5;\n  }\n`;\nexport const Div3 = styled.div`\n  grid-area: 1 / 5 / 2 / 6;\n  display: flex;\n  justify-content: space-around;\n  align-items: center;\n  @media ${(props) => props.theme.breakpoints.sm} {\n    align-items: center;\n    grid-area: 1 / 4 / 2 / 6;\n  }\n`;\n\n// Navigation Links\nexport const NavLink = styled.a`\n  font-size: 2rem;\n  line-height: 32px;\n  color: rgba(255, 255, 255, 0.75);\n  transition: 0.4s ease;\n  &:hover {\n    color: #fff;\n    opacity: 1;\n    cursor: pointer;\n  }\n  @media ${(props) => props.theme.breakpoints.sm} {\n    padding: 0.5rem;\n  }\n`;\n\n/// DropDown Contact\nexport const ContactDropDown = styled.button`\n  border: none;\n  display: flex;\n  position: relative;\n  background: none;\n  font-size: 1.7rem;\n  line-height: 32px;\n  color: rgba(255, 255, 255, 0.75);\n  cursor: pointer;\n  transition: 0.3s ease;\n  &:focus {\n    outline: none;\n  }\n  &:hover {\n    color: #fff;\n  }\n  @media ${(props) => props.theme.breakpoints.sm} {\n    padding: 0.4rem 0;\n  }\n  @media ${(props) => props.theme.breakpoints.md} {\n    padding: 0;\n  }\n`;\n\nexport const NavProductsIcon = styled(IoIosArrowDropdown)`\n  margin-left: 8px;\n  display: flex;\n  align-self: center;\n  transition: 0.3s ease;\n  opacity: ${({ isOpen }) => (isOpen ? '1' : '.75')};\n  transform: ${({ isOpen }) => (isOpen ? 'scaleY(-1)' : 'scaleY(1)')};\n  &:hover {\n    opacity: 1;\n  }\n  @media ${(props) => props.theme.breakpoints.sm} {\n    margin: 2px 0 0 2px;\n    width: 15px;\n  }\n`;\n\n\n// Social Icons \n\nexport const SocialIcons = styled.a`\ntransition: 0.3s ease;\ncolor: white;\nborder-radius: 50px;\n  padding: 8px;\n&:hover {\n    background-color: #212d45;\n    transform: scale(1.2);\n    cursor: pointer;\n    \n  }\n`"
+        }
+    ]
+}

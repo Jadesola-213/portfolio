@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/themes/default.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1643999987758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644000009111,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   colors: {\n     primary1: \"hsl(204,23.8%,95.9%)\",\n     background1: \"black\",\n     accent1: \"hsl(34.9,98.6%,72.9%)\",\n-    button: \"hsl(205.1,100%,36.1%)\",\n+    button: \"blue\",\n     background2: \"hsl(232.7,27.3%,23.7%)\",\n   },\n   // Breakpoints for responsive design\n   breakpoints: {\n"
+                }
+            ],
+            "date": 1643999987758,
+            "name": "Commit-0",
+            "content": "export default {\n  // Temp fonts\n  fonts: {\n    title: \"Space Grotesk, sans-serif\",\n    main: \"Space Grotesk, sans-serif\"\n  },\n  // Colors for layout\n  colors: {\n    primary1: \"hsl(204,23.8%,95.9%)\",\n    background1: \"black\",\n    accent1: \"hsl(34.9,98.6%,72.9%)\",\n    button: \"hsl(205.1,100%,36.1%)\",\n    background2: \"hsl(232.7,27.3%,23.7%)\",\n  },\n  // Breakpoints for responsive design\n  breakpoints: {\n    sm: 'screen and (max-width: 640px)',\n    md: 'screen and (max-width: 768px)',\n    lg: 'screen and (max-width: 1024px)',\n    xl: 'screen and (max-width: 1280px)'\n  },\n}\n"
+        }
+    ]
+}

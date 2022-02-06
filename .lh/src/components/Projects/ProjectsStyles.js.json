@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Projects/ProjectsStyles.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1643998911931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1644184548598,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n \n export const HeaderThree = styled.h3`\n   font-weight: 500;\n   letter-spacing: 2px;\n-  color: #9cc9e3;\n+  color: yellow;\n   padding: .5rem 0;\n   font-size: ${(props) => props.title ? '3rem' : '2rem'};\n `;\n \n"
+                }
+            ],
+            "date": 1643998911931,
+            "name": "Commit-0",
+            "content": "import styled from 'styled-components';\n\nexport const Img = styled.img`\n  width:100%;\n  height:100%;\n  object-fit: cover;\n  overflow: hidden;\n`\n\nexport const GridContainer = styled.section`\ndisplay: grid;\ngrid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\npadding: 3rem;\nplace-items: center;\ncolumn-gap: 2rem;\nrow-gap: 3rem;\n@media ${(props) => props.theme.breakpoints.sm} {\n  display: flex;\n  flex-direction: column;\n  padding: 2rem;\n  padding-bottom: 0;\n}\n`\nexport const BlogCard = styled.div`\n  border-radius: 10px;\n  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);\n  text-align: center;\n  width: 400px;\n  @media ${(props) => props.theme.breakpoints.sm} {\n    width: 100%;\n  }\n`;\nexport const TitleContent = styled.div`\n  text-align: center;\n  z-index: 20;\n  width: 100%;\n`;\n\n\nexport const HeaderThree = styled.h3`\n  font-weight: 500;\n  letter-spacing: 2px;\n  color: #9cc9e3;\n  padding: .5rem 0;\n  font-size: ${(props) => props.title ? '3rem' : '2rem'};\n`;\n\nexport const Hr = styled.hr`\n  width: 50px;\n  height: 3px;\n  margin: 20px auto;\n  border: 0;\n  background: #d0bb57;\n`;\n\nexport const Intro = styled.div`\n  width: 170px;\n  margin: 0 auto;\n  color: #dce3e7;\n  font-family: 'Droid Serif', serif;\n  font-size: 13px;\n  font-style: italic;\n  line-height: 18px;\n`;\n\n\nexport const CardInfo = styled.p`\n  width: 100%;\n  padding: 0 50px;\n  color: #e4e6e7;\n  font-style: 2rem;\n  line-height: 24px;\n  text-align: justify;\n  @media ${(props) => props.theme.breakpoints.sm} {\n    padding:.3rem\n  \n}\n`;\n\n\nexport const UtilityList = styled.ul`\n  list-style-type: none;\n  padding: 0;\n  display: flex;\n  justify-content: space-around;\n  margin: 2.5rem 0;\n`;\n\nexport const ExternalLinks = styled.a`\ncolor:#d4c0c0;\nfont-size: 1.6rem;\npadding:1rem 1.5rem;\nbackground: #6b3030;\nborder-radius: 15px;\ntransition: 0.5s;\n&:hover{\n  background: #801414;\n}\n`;\n\nexport const TagList = styled.ul`\ndisplay: flex;\njustify-content: space-around;\npadding: 2rem;\n`\nexport const Tag = styled.li`\ncolor: #d8bfbf;\nfont-size: 1.5rem;\n`"
+        }
+    ]
+}
